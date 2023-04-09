@@ -10,25 +10,25 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Gestion des Produits</title>
+  <title>Gestion des Games</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Gestion Produits</a>
+  <a class="navbar-brand" href="#">Gestion Games</a>
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" th:href="@{ListeProduits}" >Home</a>
+      <a class="nav-link" th:href="@{ListeGames}" >Home</a>
     </li>
     <!-- Dropdown -->
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Produits
+        Games
       </a>
       <div class="dropdown-menu">
         <a class="dropdown-item" th:href="@{showCreate}">Ajouter</a>
-        <a class="dropdown-item" th:href="@{ListeProduits}">Lister</a>
+        <a class="dropdown-item" th:href="@{ListeGames}">Lister</a>
       </div>
     </li>
   </ul>
